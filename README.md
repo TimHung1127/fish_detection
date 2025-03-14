@@ -1,4 +1,3 @@
-Requirements.txt is for cuda11.8(gpu), if you only have cpu, download cpu version for pytorch
 ```
 /your_project/
 │── dataset/
@@ -11,11 +10,11 @@ Requirements.txt is for cuda11.8(gpu), if you only have cpu, download cpu versio
 │   │   │   ├── frame_100.jpg
 │   │   │   ├── frame_105.jpg
 │   │   │   ├── ...
-│   │   │── test/          # 測試集影像（可選）
+│   │   │── test/          # 測試集影像
 │   │   │   ├── frame_200.jpg
 │   │   │   ├── frame_205.jpg
 │   │   │   ├── ...
-│   │── labels/            # 標註資料（YOLO 格式）
+│   │── labels/            # 標註資料
 │   │   │── train/         # 訓練集標註
 │   │   │   ├── frame_0.txt
 │   │   │   ├── frame_5.txt
@@ -24,7 +23,7 @@ Requirements.txt is for cuda11.8(gpu), if you only have cpu, download cpu versio
 │   │   │   ├── frame_100.txt
 │   │   │   ├── frame_105.txt
 │   │   │   ├── ...
-│   │   │── test/          # 測試集標註（可選）
+│   │   │── test/          # 測試集標註
 │   │   │   ├── frame_200.txt
 │   │   │   ├── frame_205.txt
 │   │   │   ├── ...
@@ -50,10 +49,10 @@ Requirements.txt is for cuda11.8(gpu), if you only have cpu, download cpu versio
 │   │   │   ├── tracked_video.mp4  # 追蹤後影片
 │
 │── scripts/               # Python 腳本
-│   │── extract_frames.py  # 影片轉影格
-│   │── train_yolo.py      # 訓練 YOLO
-│   │── track_fish.py      # 追蹤魚類
+│   │── extract_frames.py
+│   │── train_yolo.py
+│   │── track_fish.py
 │
-│── requirements.txt       # 依賴安裝清單
-│── README.md              # 專案說明文件
+│── requirements.txt
+│── README.md
 ```
