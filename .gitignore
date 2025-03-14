@@ -2,4 +2,4 @@
 roboflow_data/
 runs/*/
 .vscode/
-videos/videos/raw/*.MOV
+videos/
